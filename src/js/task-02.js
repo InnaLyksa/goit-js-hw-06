@@ -16,4 +16,4 @@ const itemList = ingredients.map(ingredient => {
 });
 // console.log(itemList);
 ingredientsList.append(...itemList);
-console.log(ingredientsList);
+// console.log(ingredientsList);
