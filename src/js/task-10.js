@@ -31,5 +31,12 @@ const destroyBoxes = () => {
   inputValue.value = '';
 };
 
+// const destroyInput = () => {
+//   if (inputValue.value === '') {
+//     listOfElements.innerHTML = '';
+//   }
+// };
+
 btnCreateEl.addEventListener('click', createBoxes);
 btnDestroyEl.addEventListener('click', destroyBoxes);
+// inputValue.addEventListener('blur', destroyInput);
